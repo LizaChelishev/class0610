@@ -1,6 +1,6 @@
 voting = 0
 while voting < 4:
-    total_number_of_countries = 170
+    total_number_of_countries = 5
     num_of_countries = 0
     count_pro = 0
     count_con = 0
@@ -19,8 +19,8 @@ while voting < 4:
         num_of_countries += 1
 
     if num_of_countries == total_number_of_countries:
-        print('Pro votes = ' + str(pro_count))
-        print('Con votes = ' + str(con_count))
-        print('Abstention votes = ' + str(abst_count))
+        print('Pro votes = ' + str(count_pro))
+        print('Con votes = ' + str(count_con))
+        print('Abstention votes = ' + str(count_abst))
     voting += 1
 
